@@ -1,4 +1,5 @@
 package client;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -29,6 +30,7 @@ public class Main {
     private static final int cardCount = 52 * cardHeapCount;
     private static final int PLAYER_COUNT = 9;
     private static final double DEFAULT_CHIP = 200.0f;
+    @SuppressWarnings("unused")
     private static final String[] POSITIONS = { "SB", "BB", "UTG", "UTG+1", "HJ", "CO", "D" };
     private static final Map<String, String> commandMap = new HashMap<String, String>();
     private static final int POCKET_COUNT = 2;
